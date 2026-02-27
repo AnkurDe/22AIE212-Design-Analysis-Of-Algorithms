@@ -22,6 +22,7 @@ public class Q2 {
     static void main() {
         int[] arr = {1, 23, 11, 8, 31, 4, 50, 60, 2, 70};
         System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(kLargest(arr, 3)));
         System.out.println(Arrays.toString(kLargest(arr, 4)));
     }
 }

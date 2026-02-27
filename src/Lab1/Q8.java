@@ -1,6 +1,10 @@
 package Lab1;
 
-import javax.swing.plaf.IconUIResource;
+//Write a program to implement inversion count.
+//9. Given the Input (non-negative integers): A ={10 ,1,2,4,13,9,5} The number of inversions that are
+//possible as follows:
+//{( 10, 1 ), ( 10, 2 ),( 10 , 4 ), ( 10, 9 ), ( 10, 5) , (13 , 9 ), ( 13, 5) , ( 9 , 5 ) }
+//Total count of inversions are: 8
 
 public class Q8 {
     static int mergeSort(int[] arr, int left, int right) {
