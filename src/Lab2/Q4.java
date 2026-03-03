@@ -52,7 +52,7 @@ public class Q4 {
 
         List<Meeting> result = new ArrayList<>();
 
-        Meeting current = meetings.get(0);
+        Meeting current = meetings.getFirst();
         result.add(current);
 
         for (int i = 1; i < meetings.size(); i++) {
